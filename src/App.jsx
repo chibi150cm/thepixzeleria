@@ -111,7 +111,7 @@ export default function App() {
     };
 
     return (
-        <BrowserRouter basename="/pixzeleriaver2">
+        <BrowserRouter basename="/thepixzeleria">
             <Routes>
                 <Route 
                     path="/" 

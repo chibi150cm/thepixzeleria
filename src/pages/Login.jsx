@@ -79,8 +79,8 @@ export default function Login({ User, setUser, onLoginSuccess, onClose }) {
                     console.log("🔐 ES ADMIN - Redirigiendo en 1 segundo...");
                     // Dar tiempo para ver los logs
                     setTimeout(() => {
-                        console.log("➡️ Redirigiendo ahora a /pixzeleriaver2/admin");
-                        window.location.href = '/pixzeleriaver2/admin';
+                        console.log("➡️ Redirigiendo ahora a /thepixzeleria/admin");
+                        window.location.href = '/thepixzeleria/admin';
                     }, 1000);
                 } else {
                     console.log("👤 Usuario normal, cerrando ventana...");

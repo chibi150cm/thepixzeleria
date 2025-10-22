@@ -15,7 +15,7 @@ const AdminLayout = ({ children, activeSection, onSectionChange }) => {
 
     if (!currentUser) {
       console.log("No hay usuario logueado, redirigiendo...");
-      window.location.href = '/pixzeleriaver2/';
+      window.location.href = '/thepixzeleria/';
       return;
     }
 
@@ -25,7 +25,7 @@ const AdminLayout = ({ children, activeSection, onSectionChange }) => {
 
     if (user.role !== 'admin') {
       console.log("Usuario no es admin, redirigiendo...");
-      window.location.href = '/pixzeleriaver2/';
+      window.location.href = '/thepixzeleria/';
       return;
     }
 
@@ -38,7 +38,7 @@ const AdminLayout = ({ children, activeSection, onSectionChange }) => {
       // Limpiar localStorage
       localStorage.removeItem('currentUser');
       console.log("Sesión cerrada");
-      window.location.href = '/pixzeleriaver2/';
+      window.location.href = '/thepixzeleria/';
     }
   };
 
